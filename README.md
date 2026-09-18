@@ -157,31 +157,59 @@ src/
 └── Main.java
 
 ```
+Componentes principales
 
-
-**`Clinic`**
+Clinica
 
 Actúa como componente central del sistema y coordina la gestión de pacientes, médicos y citas.
 
-**`Appointment`**
+Cita
 
-Representa una cita médica y contiene la información necesaria para relacionar paciente, médico, fecha, prioridad y tipo de cita.
+Representa una cita médica y contiene la información necesaria para relacionar pacientes, médicos, fechas, prioridades y tipos de cita.
 
-**`GeneralAppointment`****,** **`SpecialistAppointment`** **y** **`EmergencyAppointment`**
+CitaGeneral, CitaEspecialista y CitaUrgencias
 
 Especializan el comportamiento de los diferentes tipos de citas mediante herencia.
 
-**`GeneralSchedule`**
+AgendaGeneral
 
-Gestiona las colecciones de citas y proporciona operaciones relacionadas con su administración.
+Gestiona las citas y proporciona las operaciones necesarias para su administración.
 
-**`CsvSchedule`****,** **`DatSchedule`** **y** **`XmlSchedule`**
+AgendaCSV, AgendaDAT y AgendaXML
 
-Se encargan de implementar los diferentes mecanismos de persistencia.
+Se encargan de implementar los diferentes mecanismos de persistencia de la información mediante archivos CSV, DAT y XML.
 
-**`Patient`** **y** **`Doctor`**
+Pacientes y Medicos
 
-Representan las principales entidades del dominio de la aplicación.
+Representan las principales entidades del sistema, almacenando la información correspondiente a pacientes y profesionales médicos.
+
+PacientesCSV y MedicosCSV
+
+Gestionan la lectura y escritura de la información de pacientes y médicos mediante archivos CSV.
+
+Especialidad
+
+Define las diferentes especialidades médicas disponibles en el sistema.
+
+Prioridad
+
+Define los niveles de prioridad que pueden tener las citas, especialmente las citas de urgencias.
+
+TipoAgenda
+
+Define los diferentes tipos de agenda disponibles en el sistema.
+
+Comparator
+
+Permite establecer criterios de comparación y ordenación para la gestión de las citas.
+
+ContadoresCSV
+
+Gestiona los contadores utilizados para generar identificadores en los archivos CSV.
+
+Main
+
+Es el punto de entrada de la aplicación y permite iniciar la ejecución del sistema de gestión de la clínica.
 
 ---
 
