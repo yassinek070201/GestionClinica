@@ -177,7 +177,7 @@ Gestiona las citas y proporciona las operaciones necesarias para su administraci
 
 AgendaCSV, AgendaDAT y AgendaXML
 
-Se encargan de implementar los diferentes mecanismos de persistencia de la información mediante archivos CSV, DAT y XML.
+Se encargan de implementar los diferentes mecanismos de persistencia mediante archivos CSV, DAT y XML.
 
 Pacientes y Medicos
 
@@ -193,7 +193,7 @@ Define las diferentes especialidades médicas disponibles en el sistema.
 
 Prioridad
 
-Define los niveles de prioridad que pueden tener las citas, especialmente las citas de urgencias.
+Define los niveles de prioridad que pueden tener las citas.
 
 TipoAgenda
 
@@ -210,7 +210,6 @@ Gestiona los contadores utilizados para generar identificadores en los archivos 
 Main
 
 Es el punto de entrada de la aplicación y permite iniciar la ejecución del sistema de gestión de la clínica.
-
 ---
 
 ## Conceptos de programación aplicados
