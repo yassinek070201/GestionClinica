@@ -128,39 +128,36 @@ El código se encuentra organizado en diferentes paquetes según la responsabili
 ```text
 src/
 │
-├── clinic/
-│   └── Clinic.java
+├── ClaseClinica/
+│   └── Clinica.java
 │
-├── appointments/
-│   ├── Appointment.java
-│   ├── GeneralAppointment.java
-│   ├── SpecialistAppointment.java
-│   ├── EmergencyAppointment.java
-│   ├── CsvCounters.java
-│   └── Priority.java
-│
-├── schedules/
-│   ├── GeneralSchedule.java
-│   ├── CsvSchedule.java
-│   ├── DatSchedule.java
-│   ├── XmlSchedule.java
+├── ClasesAgendas/
+│   ├── AgendaCSV.java
+│   ├── AgendaDAT.java
+│   ├── AgendaGeneral.java
+│   ├── AgendaXML.java
 │   ├── Comparator.java
-│   └── ScheduleType.java
+│   └── TipoAgenda.java
 │
-├── people/
-│   ├── Patient.java
-│   ├── PatientCsv.java
-│   ├── Doctor.java
-│   ├── DoctorCsv.java
-│   └── Specialty.java
+├── ClasesCitas/
+│   ├── Cita.java
+│   ├── CitaEspecialista.java
+│   ├── CitaGeneral.java
+│   ├── CitaUrgencias.java
+│   ├── ContadoresCSV.java
+│   └── Prioridad.java
+│
+├── ClasesPersonas/
+│   ├── Especialidad.java
+│   ├── Medicos.java
+│   ├── MedicosCSV.java
+│   ├── Pacientes.java
+│   └── PacientesCSV.java
 │
 └── Main.java
 
 ```
 
-> Los nombres anteriores representan una propuesta de organización profesional. Al renombrar las clases y paquetes del proyecto, deberían adaptarse a los nombres definitivos utilizados en el código.
-
-### Componentes principales
 
 **`Clinic`**
 
