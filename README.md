@@ -157,60 +157,60 @@ src/
 └── Main.java
 
 ```
-Componentes principales
+### Componentes principales
 
-Clinica
+**`Clinica`**
 
 Actúa como componente central del sistema y coordina la gestión de pacientes, médicos y citas.
 
-Cita
+**`Cita`**
 
 Representa una cita médica y contiene la información necesaria para relacionar pacientes, médicos, fechas, prioridades y tipos de cita.
 
-CitaGeneral, CitaEspecialista y CitaUrgencias
+**`CitaGeneral`, `CitaEspecialista` y `CitaUrgencias`**
 
 Especializan el comportamiento de los diferentes tipos de citas mediante herencia.
 
-AgendaGeneral
+**`AgendaGeneral`**
 
 Gestiona las citas y proporciona las operaciones necesarias para su administración.
 
-AgendaCSV, AgendaDAT y AgendaXML
+**`AgendaCSV`, `AgendaDAT` y `AgendaXML`**
 
 Se encargan de implementar los diferentes mecanismos de persistencia mediante archivos CSV, DAT y XML.
 
-Pacientes y Medicos
+**`Pacientes` y `Medicos`**
 
 Representan las principales entidades del sistema, almacenando la información correspondiente a pacientes y profesionales médicos.
 
-PacientesCSV y MedicosCSV
+**`PacientesCSV` y `MedicosCSV`**
 
 Gestionan la lectura y escritura de la información de pacientes y médicos mediante archivos CSV.
 
-Especialidad
+**`Especialidad`**
 
 Define las diferentes especialidades médicas disponibles en el sistema.
 
-Prioridad
+**`Prioridad`**
 
 Define los niveles de prioridad que pueden tener las citas.
 
-TipoAgenda
+**`TipoAgenda`**
 
 Define los diferentes tipos de agenda disponibles en el sistema.
 
-Comparator
+**`Comparator`**
 
 Permite establecer criterios de comparación y ordenación para la gestión de las citas.
 
-ContadoresCSV
+**`ContadoresCSV`**
 
 Gestiona los contadores utilizados para generar identificadores en los archivos CSV.
 
-Main
+**`Main`**
 
 Es el punto de entrada de la aplicación y permite iniciar la ejecución del sistema de gestión de la clínica.
----
+
 
 ## Conceptos de programación aplicados
 
