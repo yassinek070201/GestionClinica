@@ -382,12 +382,9 @@ Este proyecto demuestra la aplicación práctica de conceptos fundamentales del 
 - Manejo de excepciones.
 - Diseño de un sistema preparado para futuras ampliaciones.
 
----
-
-
 
 ---
 
 ## Autor
 
-Proyecto desarrollado como parte de mi portfolio de desarrollo de software, mostrando conocimientos prácticos en **Java, Programación Orientada a Objetos, estructuras de datos y persistencia de información**.
+Proyecto desarrollado por Yassin como parte de mi portfolio de desarrollo de software, mostrando conocimientos prácticos en **Java, Programación Orientada a Objetos, estructuras de datos y persistencia de información**.
