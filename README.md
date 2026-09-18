@@ -384,25 +384,7 @@ Este proyecto demuestra la aplicación práctica de conceptos fundamentales del 
 
 ---
 
-## Roadmap
 
-Las posibles líneas de evolución del proyecto incluyen:
-
-```text
-[x] Gestión de pacientes
-[x] Gestión de médicos
-[x] Gestión de citas
-[x] Gestión de prioridades
-[x] Persistencia CSV
-[x] Persistencia binaria
-[x] Persistencia XML
-[ ] Interfaz gráfica
-[ ] Base de datos
-[ ] API REST
-[ ] Autenticación y autorización
-[ ] Tests automatizados
-
-```
 
 ---
 
